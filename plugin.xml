@@ -2,7 +2,7 @@
 <plugin id="cordova-plugin-fingerprint-sdk" version="0.1.0"
   xmlns="http://apache.org/cordova/ns/plugins/1.0"
   xmlns:android="http://schemas.android.com/apk/res/android">
-  <name>SimplFingerprintWrapper</name>
+  <name>ColumboFingerprintWrapper</name>
   <js-module name="SimplFingerprintWrapper" src="www/SimplFingerprintWrapper.js">
     <clobbers target="cordova.plugins.SimplFingerprintWrapper" />
   </js-module>

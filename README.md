@@ -1,6 +1,6 @@
 # https://github.com/Mulwanndwa/cordova-plugin-fingerprint-sdk
 
-This plugin wraps the native Simpl Fingerprint SDKs to generate fingerprints.
+This plugin wraps the native Columbo Fingerprint SDKs to generate fingerprints.
 
 
 ## Installation

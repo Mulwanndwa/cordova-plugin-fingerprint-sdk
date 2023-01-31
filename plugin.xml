@@ -6,16 +6,7 @@
   <js-module name="SimplFingerprintWrapper" src="www/SimplFingerprintWrapper.js">
     <clobbers target="cordova.plugins.SimplFingerprintWrapper" />
   </js-module>
-  <platform name="ios">
-    <config-file parent="/*" target="config.xml">
-      <feature name="SimplFingerprintWrapper">
-        <param name="ios-package" value="SimplFingerprintWrapper" />
-      </feature>
-    </config-file>
-    <source-file src="src/ios/SimplFingerprintWrapper.m" />
-    <framework src="SimplFingerPrint" type="podspec" spec="~> 1.0.1" />
-
-  </platform>
+ 
   <platform name="android">
     <config-file parent="/*" target="res/xml/config.xml">
       <feature name="SimplFingerprintWrapper">

@@ -1,17 +1,15 @@
 {
   "name": "cordova-plugin-fingerprint-sdk",
-  "version": "0.1.2",
+  "version": "0.0.0",
   "description": "Cordova plugin for Simpl Fingerprint SDK",
   "cordova": {
     "id": "cordova-plugin-fingerprint-sdk",
     "platforms": [
-      "ios",
       "android"
     ]
   },
   "keywords": [
     "ecosystem:cordova",
-    "cordova-ios",
     "cordova-android"
   ],
   "author": "Mpho",

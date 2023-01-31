@@ -10,11 +10,11 @@
   <platform name="android">
     <config-file parent="/*" target="res/xml/config.xml">
       <feature name="SimplFingerprintWrapper">
-        <param name="android-package" value="com.simpl.SimplFingerprintWrapper" />
+        <param name="android-package" value="com.simpl.android.fingerprint" />
       </feature>
     </config-file>
     <config-file parent="/*" target="AndroidManifest.xml"></config-file>
-    <source-file src="src/android/SimplFingerprintWrapper.java" target-dir="src/cordova-plugin-fingerprint-sdk/SimplFingerprintWrapper" />
+    <source-file src="src/android/SimplFingerprintWrapper.java" target-dir="src/cordova-plugin-fingerprint-sdk/integratedbiometrics" />
 
     <source-file src="src/android/iBScanCommon-release.jar" target-dir="libs"/>
     <source-file src="src/android/iBScanUltimate-release.jar" target-dir="libs"/>

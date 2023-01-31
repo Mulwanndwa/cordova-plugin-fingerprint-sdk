@@ -82,10 +82,12 @@ import uk.co.senab.photoview.PhotoViewAttacher;
 
 //-------------------------------
 
+//import com.simpl.android.fingerprint.SimplFingerprintListener;
+//import com.simpl.android.fingerprint.SimplFingerprint;
 import android.content.Context;
 
 
-
+this.m_ibScan = IBScan.getInstance(this.getApplicationContext());
 
 public class SimplFingerprintWrapper extends CordovaPlugin {
     
@@ -101,8 +103,7 @@ public class SimplFingerprintWrapper extends CordovaPlugin {
         } 
         if (action.equals("openScanner")) {
             
-            //this.m_ibScan = IBScan.getInstance(this.getApplicationContext());
-
+            
             try
             {
             IBScanDevice myDevice = this.m_ibScan.open(deviceIndex);

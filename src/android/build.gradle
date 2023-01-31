@@ -1,5 +1,5 @@
 repositories{
- maven { url 'http://maven.getsimpl.com' }
+ //maven { url 'http://maven.getsimpl.com' }
 }
 
 dependencies {

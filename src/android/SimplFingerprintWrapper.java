@@ -82,8 +82,6 @@ import uk.co.senab.photoview.PhotoViewAttacher;
 
 //-------------------------------
 
-//import com.simpl.android.fingerprint.SimplFingerprintListener;
-//import com.simpl.android.fingerprint.SimplFingerprint;
 import android.content.Context;
 
 
